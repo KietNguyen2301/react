@@ -4,11 +4,22 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Navbar, NavbarBrand } from './react-bootstrap';
+import Hello from './Hello';
+import Welcom from './Welcom';
+import Counter from './Counter';
+import HelloAsClass from './HelloAsClass';
+import HelloAsFunction from './HelloAsFunction';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Hello/>
+    <Welcom/>
+    <HelloAsClass who ="dat" address="da nang"/>
+    <HelloAsFunction a= "10" b="5" />
+    <Counter/>
+
     <Navbar/>
     <NavbarBrand/>
     <App />

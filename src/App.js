@@ -3,6 +3,7 @@ import './App.css';
 import React ,{Component} from 'react';
 
 import { Navbar, NavbarBrand } from './react-bootstrap';
+import Menu from './components/Menucomponent';
 
 
 class App extends Component {
@@ -14,10 +15,10 @@ class App extends Component {
             <NavbarBrand href="/">Ristorante Con Fusion</NavbarBrand>
           </div>
         </Navbar>
+        <Menu/>
       </div>
     );
   }
 }
-
 
 export default App;
