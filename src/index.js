@@ -9,19 +9,14 @@ import Welcom from './Welcom';
 import Counter from './Counter';
 import HelloAsClass from './HelloAsClass';
 import HelloAsFunction from './HelloAsFunction';
+import 'font-awesome/css/font-awesome.css';
+import 'bootstrap-social/bootstrap-social.css';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Hello/>
-    <Welcom/>
-    <HelloAsClass who ="dat" address="da nang"/>
-    <HelloAsFunction a= "10" b="5" />
-    <Counter/>
-
-    <Navbar/>
-    <NavbarBrand/>
     <App />
   </React.StrictMode>
 );
