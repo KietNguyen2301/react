@@ -1,19 +1,22 @@
 
 import './App.css';
-import React ,{Component} from 'react';
-import Menu from './component/Menucomponent';
-import { DISHES } from './shared/dishes';
+import React, { Component } from 'react';
 import Main from './component/MainComponent';
+import { BrowserRouter } from 'react-router-dom';
+
+
 
 
 class App extends Component {
-  
+
 
   render() {
     return (
+      <BrowserRouter>
       <div className="App">
-                <Main />
+        <Main />
       </div>
+      </BrowserRouter>
     );
   }
 }

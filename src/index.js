@@ -3,14 +3,9 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { Navbar, NavbarBrand } from './react-bootstrap';
-import Hello from './Hello';
-import Welcom from './Welcom';
-import Counter from './Counter';
-import HelloAsClass from './HelloAsClass';
-import HelloAsFunction from './HelloAsFunction';
 import 'font-awesome/css/font-awesome.css';
 import 'bootstrap-social/bootstrap-social.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
